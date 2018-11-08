@@ -12,11 +12,13 @@ Just install and import the package ```custom_gym``` and here you go!
 ```python
 import gym
 import custom_gym
+from custom_gym import RecorderWrapper
 
 # classic_control
-env = gym.make('MountainCarEx-v0')
-# unity
-env = gym.make('Kobuki-v0')
+env = gym.make('MassPointGoal-v0')
+
+# recorder wrapper
+env = RecorderWrapper(env, './test_data/', file_format='json')
 ```
 See detail example in ```test.py```.
 

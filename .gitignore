@@ -7,19 +7,15 @@ custom_gym.egg-info
 # Unity executable
 custom_gym/unity/assets
 
+# Classic control
+custom_gym/classic_control/decrepated
+
 # MuJoCo
-custom_gym/mujoco/*
-!custom_gym/mujoco/__init__.py
-!custom_gym/mujoco/mujoco_env.py
-!custom_gym/mujoco/reacher.py
-!custom_gym/mujoco/reacher_gep.py
-!custom_gym/mujoco/reacher_five_target.py
-!custom_gym/mujoco/reacher_five_target_v1.py
-!custom_gym/mujoco/assets
-custom_gym/mujoco/assets/*
-!custom_gym/mujoco/assets/reacher.xml
-!custom_gym/mujoco/assets/reacher_five_target.xml
-!custom_gym/mujoco/assets/reacher_five_target_v1.xml
+custom_gym/mujoco/decrepated
+
+# Testing
+test_data
+rule_base/dataset/
 
 # IOS stuff
 .DS_Store

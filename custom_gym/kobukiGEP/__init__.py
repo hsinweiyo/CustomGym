@@ -1,0 +1,2 @@
+from custom_gym.kobukiGEP.KobukiGEPGoal import KobukiGEPGoal
+from custom_gym.kobukiGEP.KobukiGEPTraj import KobukiGEPTraj

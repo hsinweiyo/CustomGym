@@ -4,6 +4,8 @@ import json
 class Recoder:
     
     def __init__(self, file_path):
+        print('The Recoder will be deprecated. Use RecorderWrapper instead.')
+        
         self.file_path = file_path
         self.count = 0
 
